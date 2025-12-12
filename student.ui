@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>studentWindow</class>
+ <widget class="QMainWindow" name="studentWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>779</width>
+    <height>674</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>200</width>
+    <height>500</height>
+   </size>
+  </property>s
+  <property name="font">
+   <font>
+    <pointsize>2</pointsize>
+    <kerning>false</kerning>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>studentWindow</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>engkau.jpg</normaloff>engkau.jpg</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">/* حجم الخط الافتراضي لكل عناصر QWidget */
+QWidget {
+    font-size: 14px;
+}
+
+/* عناصر محددة */
+QPushButton {
+    font-size: 12px;
+    min-width: 80px;
+}
+
+QLabel {
+    font-size: 14px;
+}
+
+QLineEdit {
+    font-size: 12px;
+}
+
+QGroupBox {
+    font-size: 13px;
+}
+
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="logout_btn">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>430</y>
+      <width>82</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>sign out</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="schedule_btn">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>260</y>
+      <width>141</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>current schedule</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="plan_btn">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>330</y>
+      <width>141</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>plan</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="register_btn">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>200</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>add / delete curses</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="info_btn">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>142</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>2</pointsize>
+     </font>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="toolTip">
+     <string>student information</string>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="text">
+     <string>information</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>779</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
